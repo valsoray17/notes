@@ -4,30 +4,28 @@
 
 This is another line like 234
 
-Remember the MANTRA: act, repeat, reverse
+# Remember the MANTRA: act, repeat, reverse
 
-Stopped at tip 7
+## Moved to tip 8. Chapter 7 explained the Normal mode. Nothing special, but a good analogy with the painter.
 
-Moved to tip 8. Chapter 7 explained the Normal mode. Nothing special, but a good analogy with the painter.
-
-#Tip 8 talked about chunking the 'undo's. The good advice is "If you paused for long enough to ask if you should leave the Insert mode, then do it"
+## Tip 8 talked about chunking the 'undo's. The good advice is "If you paused for long enough to ask if you should leave the Insert mode, then do it"
 Each insert creates the undo chunk. However arrow keys in Insert mode will also create an undo chunk
 
-#Tip 9 talked about composing repeatable changes. For example to pick the "winner" command between the several commands wich acoomplish the same result you need to look into how easy will it be to repeat the edit. 'dbx' vs 'bdw' vs 'daw'
-
-#Moved to tip 10
+## Tip 9 talked about composing repeatable changes. For example to pick the "winner" command between the several commands wich acoomplish the same result you need to look into how easy will it be to repeat the edit. 'dbx' vs 'bdw' vs 'daw'
+ 
+# Moved to tip 10
 
 That's a test from tip 10. The number 5. Apparently you can add (<C-a>) or substract (<C-x>) from number on a line. 
 Vim will jump to the first number it finds on the line
-
-#Tip 12 Case/Indent
+ 
+# Tip 12 Case/Indent
 Skipping the tip 11 as it talked about common sense in using count vs repeat commands
 !    Operator + Motion = Action
 Vim grammar rule: when an operator command is invoked in duplicate, it acts upon the current line.
 Upper/Lower/Switch case = gU/gu/g~
 Shift right/left/autoindent = >/</=
 
-#Tip 13 Another Backspace
+# Tip 13 Another Backspace
 Nice new command, which equals to Backspace - <C-h>. It also works in bash
 
 #Tip 14 'zz'
