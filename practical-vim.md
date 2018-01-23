@@ -15,7 +15,7 @@ Each insert creates the undo chunk. However arrow keys in Insert mode will also 
 For example to pick the "winner" command between the several commands wich acoomplish the same result you need to look into how easy will it be to repeat the edit. 'dbx' vs 'bdw' vs 'daw'
  
 ### Moved to tip 10
-That's a test from tip 10. The number 5. Apparently you can add (\<C-a\>) or substract (\<C-x\>) from number on a line. 
+That's a test from tip 10. The number 5. Apparently you can add (`<C-a>`) or substract (\<C-x\>) from number on a line. 
 Vim will jump to the first number it finds on the line
  
 ### Tip 12 Case/Indent
