@@ -1,14 +1,10 @@
-523
-234
-  333 455
-
-This is another line like 234
-
 ## Remember the MANTRA: act, repeat, reverse
 
-### Moved to tip 8. Chapter 7 explained the Normal mode. Nothing special, but a good analogy with the painter.
+### Moved to tip 8. 
+Chapter 7 explained the Normal mode. Nothing special, but a good analogy with the painter.
 
-### Tip 8 talked about chunking the 'undo's. The good advice is "If you paused for long enough to ask if you should leave the Insert mode, then do it"
+### Tip 8 talked about chunking the 'undo's. 
+The good advice is "If you paused for long enough to ask if you should leave the Insert mode, then do it"
 Each insert creates the undo chunk. However arrow keys in Insert mode will also create an undo chunk
 
 ### Tip 9 talked about composing repeatable changes. 
