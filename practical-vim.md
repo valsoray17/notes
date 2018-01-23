@@ -15,7 +15,7 @@ Each insert creates the undo chunk. However arrow keys in Insert mode will also 
 For example to pick the "winner" command between the several commands wich acoomplish the same result you need to look into how easy will it be to repeat the edit. 'dbx' vs 'bdw' vs 'daw'
  
 ### Moved to tip 10
-That's a test from tip 10. The number 5. Apparently you can add (<C-a>) or substract (<C-x>) from number on a line. 
+That's a test from tip 10. The number 5. Apparently you can add (\<C-a\>) or substract (\<C-x\>) from number on a line. 
 Vim will jump to the first number it finds on the line
  
 ### Tip 12 Case/Indent
@@ -23,25 +23,25 @@ Skipping the tip 11 as it talked about common sense in using count vs repeat com
 **Operator + Motion = Action**
 Vim grammar rule: when an operator command is invoked in duplicate, it acts upon the current line.
 Upper/Lower/Switch case = gU/gu/g~
-Shift right/left/autoindent = >/</=
+Shift right/left/autoindent = \>/\</=
 
 ### Tip 13 Another Backspace
-Nice new command, which equals to Backspace - <C-h>. It also works in bash
+Nice new command, which equals to Backspace - \<C-h\>. It also works in bash
 
 ### Tip 14 'zz'
-Vim also has 'Insert Normal Mode'. This mode allows to exec one command and immediately switch back to Insert mode. To swich to this mode from Insert mode press <C-o>
+Vim also has 'Insert Normal Mode'. This mode allows to exec one command and immediately switch back to Insert mode. To swich to this mode from Insert mode press \<C-o\>
 Other interesting command is 'zz'. It will redraw the screen with current line in the middle of the window.
 
 ### Tip 15 Navigate line (f/t)
 Reminding about motion command 't'. It's the same as f, but doesn't include the character to jump to. [yt,] can be read as yank to/till ',' character, not including it. 
-The other useful shortcut is <C-r>{register} will paste from the register {register}. For yank register use 0.
+The other useful shortcut is \<C-r\>{register} will paste from the register {register}. For yank register use 0.
 
 ### Tip 16 Expression Register
-This one talks about expression register, which can evaluate vim script expression. Can be invoked from Insert mode by <C-r>=. For example <C-r>=6*35<CR> will paste 210 as the result of expression
+This one talks about expression register, which can evaluate vim script expression. Can be invoked from Insert mode by \<C-r\>=. For example \<C-r\>=6\*35\<CR\> will paste 210 as the result of expression
 
 ### Tip 17 & 18 Character Codes
-<C-v>{code} will insert the 3-digit character code. You can specify the character in hex code - <C-v>u{1234}. For example <C-v>u0041 to insert 'A' character. To print the numeric code of the character use command 'ga'.
-We can also paste unusual characters by Digraph. To paste it use <C-k>{char1}{char2}. Try 12, 14 or 34
+\<C-v\>{code} will insert the 3-digit character code. You can specify the character in hex code - \<C-v\>u{1234}. For example \<C-v\>u0041 to insert 'A' character. To print the numeric code of the character use command 'ga'.
+We can also paste unusual characters by Digraph. To paste it use \<C-k\>{char1}{char2}. Try 12, 14 or 34
 
 ### Tip 19 Replace Mode
 Replacing text. To replace the character use 'r' command to replace character under cursor. If you press 'R' it will invoke Replace mode, which is equal to pressing 'Insert' keyboard button. The 'Insert' keyboard button will toggle replace/insert mode
