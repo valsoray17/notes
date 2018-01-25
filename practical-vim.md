@@ -15,11 +15,11 @@ That's a test from tip 10. The number 5. Apparently you can add (`<C-a>`) or sub
 Vim will jump to the first number it finds on the line
  
 ### Tip 12 Case/Indent
-Skipping the tip 11 as it talked about common sense in using count vs repeat commands\
-**Operator + Motion = Action**\
-Vim grammar rule: when an operator command is invoked in duplicate, it acts upon the current line.\
-Upper/Lower/Switch case = gU/gu/g~\
-Shift right/left/autoindent = \>/\</=\
+Skipping the tip 11 as it talked about common sense in using count vs repeat commands  
+**Operator + Motion = Action**  
+Vim grammar rule: when an operator command is invoked in duplicate, it acts upon the current line.  
+Upper/Lower/Switch case = gU/gu/g~  
+Shift right/left/autoindent = \>/\</=  
 
 ### Tip 13 Another Backspace
 Nice new command, which equals to Backspace - `<C-h>`. It also works in bash
