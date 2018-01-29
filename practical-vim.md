@@ -71,7 +71,7 @@ Specify the number before command (:2p) and vim will first jump to that line. 'p
     - '%' denotes the whole buffer range.
     - '.' means current line; '0' - virtual line above first line of the file
     - If you select a range with visual selection and press ':' after that, the ex command will automatically include :'<,'> which denotes the visual selection.
-    - Vim also accepts a patter as the address: :/patter-start/,/pattern-end/
+    - Vim also accepts a pattern as the address: :/patter-start/,/pattern-end/
     - We can modify the address using an offset of the form: {address}+n. If n is omitted, it default to 1
 
 ### Tip 29 Duplicate/Move with ':t' and ':m' commands
@@ -91,3 +91,10 @@ _<C-d>_ asks Vim to reveal a list of possible completions (it will display eithe
 Switch to command-line mode with ':'. Pressing \<Up\> or \<Down\> will scroll over the command history. Typing start symbols and then pressing \<Up\>/\<Down\> will search by the starting symbols only (for example [h] will show all commands starting withe 'h'). The same works for search history (instead of : use /).
 
 _The command-line window_ is invoked with 'q:' or 'q/' for command-line or search history respectively. The contects of the history can be modified in that window. Pressing \<CR\> will invoke the command on current line in that window. The window is modal. Can close window with :q or <CR>. Pressing <C-f> while in command-line mode will open the command-line window with the entered command.
+
+### _Intermediate tips are pending :)_
+
+### Tip 54 Mark Your Place and Snap Back to It
+Vim's marks allow to jump to the locations of interest. You can set the mart with `m{a-zA-Z}`  
+Lowercase -> local to current buffer; Uppercase -> accessible globally  
+Jump to the mark - ``{mark}`
