@@ -96,7 +96,7 @@ _The command-line window_ is invoked with 'q:' or 'q/' for command-line or searc
 
 ### Tip 54 Mark Your Place and Snap Back to It
 Vim's marks allow to jump to the locations of interest. You can set the mart with `m{a-zA-Z}`.  
-The ` vs ' => [move to row and column] vs [move to row only]  __That's why in Ex mode `'<,'>` selects the previous visual selection__
+The ` ` ` vs ` ' ` => [move to row and column] vs [move to row only]  **That's why in Ex mode `'<,'>` selects the previous visual selection**  
 Lowercase -> local to current buffer; Uppercase -> accessible globally  
 Jump to the mark - `` `{mark} ``; nice to remember `mm` and `` `m `` command pair (set mark `m` and jump to this mark)
 
