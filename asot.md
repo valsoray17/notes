@@ -9,3 +9,4 @@
 * Jam Da Bass & DJ T.H. - Get Ready And Dance (We Love Trance 2018 Anthem) [Entrancing]
 * RAM - Africa [Who's Afraid Of 138]
 * Frainbreeze & Ellie Lawson - I Pray (Ahmed Helmy Remix) [Raz Nitzan Music]
+* Marcel Woods - Beautiful Mind (Dennis Sheperd Remix) [High Contrast]
