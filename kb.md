@@ -8,3 +8,12 @@ ausearch --interpret --exit -13
 * help read
 * help -m read (man-page-like formatting)
 * /^\s*case
+
+# Write file even if opened without sudo
+:w !sudo tee % 
+
+# Searching for section, then replacing in the section
+sed -i '/<interface name="public">/,/<\/interface>/ s/<inet-address value=".*"\/>/<inet-address value="'$ntfTrafficIp'"\/>/g;'
+
+# Firefox scroll issue (GTK3)
+DK_CORE_DEVICE_EVENTS=1 firefox
