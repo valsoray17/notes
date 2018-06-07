@@ -18,3 +18,6 @@ sed -i '/what_to_find/s/change_this/to_that/'
 
 # Firefox scroll issue (GTK3)
 DK_CORE_DEVICE_EVENTS=1 firefox
+
+# Deps for sway
+sudo dnf install libxkbfile-devel json-c json-c-devel wlroots-devel wayland-protocols-devel.noarch pango-devel.x86_64 libcap-devel.x86_64 gdk-pixbuf2-devel pam-devel
