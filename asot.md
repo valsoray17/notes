@@ -39,6 +39,7 @@
 * Gareth Emery feat. Christina Novelli - Dynamite (Iversoon & Alex Daf Bootleg)
 * Omnia - Tomorrow People (Original Mix)
 * Joel Peres - I Didn't Know [Garuda]
+* Armin van Buuren feat. Bonnie McKee - Lonely For You (Club Mix) [Armind]
 
 # Non-ASOT
 * Moby - Everloving
